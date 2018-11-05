@@ -1,0 +1,18 @@
+.row {
+    margin: 0 0 20px;
+}
+
+.row::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+.column {
+    height: 200px;
+    background-color: #cccccc;
+    width: 23%;
+    float: left;
+    margin: 0 1%;
+}
